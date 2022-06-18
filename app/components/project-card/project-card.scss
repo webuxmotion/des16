@@ -1,0 +1,56 @@
+.project-card {
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__header {
+    display: flex;
+  }
+
+  &__title, &__arrow {
+    border: 1px solid $primary-color;
+    min-height: 100px;
+  }
+
+  &__title {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+    svg {
+      transform: rotate(-45deg);
+    }
+  }
+
+  &__arrow {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:nth-child(1) {
+      opacity: 0.4;
+    }
+
+    svg {
+      width: 60px;
+      height: auto;
+
+      path, line {
+        stroke: $primary-color;
+      }
+    }
+  }
+}

@@ -11,6 +11,8 @@
 <body>
   <?=$content?>
   
+  <?=$this->component('footer')?>
+  
   <script>
     var serverUrl = "<?=siteUrl()?>";
   </script>

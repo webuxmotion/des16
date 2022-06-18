@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
+  background-color: #161616;
+  color: #89a0a0;
 }
 
 h1,
@@ -40,7 +42,7 @@ ul {
 
 .button {
   transition: 0.3s;
-  background-color: #147af2;
+  background-color: #89a0a0;
   text-decoration: none;
   color: white;
   padding: 20px;
@@ -52,10 +54,10 @@ ul {
   transform: translateY(-1px);
 }
 .button:hover {
-  background-color: #4495f5;
+  background-color: #a5b7b7;
 }
 .button:active {
-  background-color: #147af2;
+  background-color: #89a0a0;
 }
 
 .hero {
@@ -63,7 +65,6 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 .hero__text {
   text-align: center;
@@ -74,7 +75,79 @@ ul {
   line-height: 26px;
   font-style: italic;
 }
+.hero__text-title {
+  font-weight: 100;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  .hero__text-title {
+    font-size: 30px;
+  }
+}
 .hero span {
   font-weight: 300;
   font-size: 100px;
+}
+@media screen and (max-width: 900px) {
+  .hero span {
+    font-size: 50px;
+  }
+}
+
+.project-card {
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project-card__header {
+  display: flex;
+}
+.project-card__title, .project-card__arrow {
+  border: 1px solid #89a0a0;
+  min-height: 100px;
+}
+.project-card__title {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.project-card__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.project-card__link svg {
+  transform: rotate(-45deg);
+}
+.project-card__arrow {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-card__arrow:nth-child(1) {
+  opacity: 0.4;
+}
+.project-card__arrow svg {
+  width: 60px;
+  height: auto;
+}
+.project-card__arrow svg path, .project-card__arrow svg line {
+  stroke: #89a0a0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #89a0a0;
 }
