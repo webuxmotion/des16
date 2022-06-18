@@ -1,0 +1,6 @@
+{
+  "name": "tonephp/des16",
+  "require": {
+    "tonephp/tonephp": "^0.1.10"
+  }
+}
