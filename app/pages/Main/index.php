@@ -36,6 +36,11 @@
 ])?>
 
 <?=$this->component('project-card', [
+  'title' => 'lefttab',
+  'href' => 'https://lefttab.com'
+])?>
+
+<?=$this->component('project-card', [
   'title' => 'snarkgame',
   'href' => 'https://snarkgame.com'
 ])?>
