@@ -1,0 +1,85 @@
+.leiboo {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(217deg, #F2F7FA, #42ABCF 70.71%),
+            linear-gradient(127deg, #42ABCF, rgba(0,255,0,0) 100%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+    &__main-text {
+        font-family: 'Bayon', sans-serif;
+        color: white;
+        font-size: 250px;
+        line-height: 180px;
+        position: absolute;
+        bottom: 50px;
+        left: 20px;
+
+        span {
+            color: #F2F7FA;
+            font-style: italic;
+        }
+    }
+
+    &__list {
+        color: white;
+        position: absolute;
+        left: 50%;
+        top: 50px;
+        list-style: none;
+        font-weight: bold;
+
+        li {
+            font-size: 80px;
+            line-height: 70px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__source-link {
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        font-size: 40px;
+    }
+
+    &__nav {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        
+        
+        ul {
+            list-style: none;
+
+            li {
+                display: inline-block;
+                padding-right: 25px;
+
+                a {
+                    color: white;
+                    font-size: 40px;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        margin-top: -5px;
+
+        svg {
+            width: 80px;
+            height: auto;
+            
+            polygon {
+                fill: white;
+            }
+        }
+    }
+}

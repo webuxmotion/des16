@@ -149,5 +149,76 @@ ul {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  background-color: #89a0a0;
+  background-color: white;
+}
+
+.leiboo {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(217deg, #F2F7FA, #42ABCF 70.71%), linear-gradient(127deg, #42ABCF, rgba(0, 255, 0, 0) 100%), linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+.leiboo__main-text {
+  font-family: "Bayon", sans-serif;
+  color: white;
+  font-size: 250px;
+  line-height: 180px;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+.leiboo__main-text span {
+  color: #F2F7FA;
+  font-style: italic;
+}
+.leiboo__list {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  list-style: none;
+  font-weight: bold;
+}
+.leiboo__list li {
+  font-size: 80px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+.leiboo__source-link {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  font-size: 40px;
+}
+.leiboo__nav {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.leiboo__nav ul {
+  list-style: none;
+}
+.leiboo__nav ul li {
+  display: inline-block;
+  padding-right: 25px;
+}
+.leiboo__nav ul li a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.leiboo__icon {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  margin-top: -5px;
+}
+.leiboo__icon svg {
+  width: 80px;
+  height: auto;
+}
+.leiboo__icon svg polygon {
+  fill: white;
 }

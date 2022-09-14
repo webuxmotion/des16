@@ -49,3 +49,5 @@
   'title' => 'emomoe',
   'href' => 'https://emomoe.com'
 ])?>
+
+<?=$this->component('leiboo')?>
