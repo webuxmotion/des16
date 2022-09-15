@@ -1,0 +1,110 @@
+.suisse {
+    height: 100vh;
+    position: relative;
+    background-color: #3F5C42;
+    display: flex;
+
+    &__dark-box {
+        position: relative;
+        background-color: black;
+        width: 50%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__light-box {
+        position: relative;
+        background-color: #3F5C42;
+        width: 50%;
+        color: black;
+    }
+
+    &__bold-text {
+        font-size: 180px;
+        font-weight: 500;
+    }
+
+    &__great-vector-sign {
+        font-size: 100px;
+        font-weight: bold;
+        border: 15px solid #f2ce99;
+        border-radius: 200px;
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #f2ce99;
+    }
+
+
+    &__list {
+        padding-left: 30px;
+        padding-right: 50px;
+        padding-top: 50px;
+        list-style: none;
+
+        li {
+            
+            font-size: 50px;
+            line-height: 50px;
+            text-transform: uppercase;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+
+    &__source-link {
+        text-decoration: none;
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        font-size: 40px;
+        font-size: 20px;
+        color: black;
+    }
+
+    &__footer-nav {
+        position: absolute;
+        bottom: 50px;
+        left: 30px;
+        
+        ul {
+            list-style: none;
+
+            li {
+                display: inline-block;
+                padding-right: 20px;
+
+                a {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        margin-top: -5px;
+
+        svg {
+            width: 50px;
+            height: auto;
+            
+            polygon {
+                fill: black;
+            }
+        }
+    }
+}

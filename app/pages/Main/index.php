@@ -1,4 +1,8 @@
+
+
 <?=$this->component('hero')?>
+
+
 
 <?=$this->component('project-card', [
   'title' => 'hi-eddy',
@@ -51,3 +55,5 @@
 ])?>
 
 <?=$this->component('leiboo')?>
+
+<?=$this->component('suisse')?>

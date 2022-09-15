@@ -222,3 +222,97 @@ ul {
 .leiboo__icon svg polygon {
   fill: white;
 }
+
+.suisse {
+  height: 100vh;
+  position: relative;
+  background-color: #3F5C42;
+  display: flex;
+}
+.suisse__dark-box {
+  position: relative;
+  background-color: black;
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.suisse__light-box {
+  position: relative;
+  background-color: #3F5C42;
+  width: 50%;
+  color: black;
+}
+.suisse__bold-text {
+  font-size: 180px;
+  font-weight: 500;
+}
+.suisse__great-vector-sign {
+  font-size: 100px;
+  font-weight: bold;
+  border: 15px solid #f2ce99;
+  border-radius: 200px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f2ce99;
+}
+.suisse__list {
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 50px;
+  list-style: none;
+}
+.suisse__list li {
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.suisse__list li:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+.suisse__source-link {
+  text-decoration: none;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font-size: 40px;
+  font-size: 20px;
+  color: black;
+}
+.suisse__footer-nav {
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+}
+.suisse__footer-nav ul {
+  list-style: none;
+}
+.suisse__footer-nav ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.suisse__footer-nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.suisse__icon {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  margin-top: -5px;
+}
+.suisse__icon svg {
+  width: 50px;
+  height: auto;
+}
+.suisse__icon svg polygon {
+  fill: black;
+}
