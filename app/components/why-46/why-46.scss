@@ -1,0 +1,37 @@
+.why-46 {
+    height: 100vh;
+    background-color: white;
+    background: radial-gradient(at bottom left, rgba(184,141,219,1) 0%, rgb(205, 164, 239) 40%,rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);
+    position: relative;
+
+    &__text {
+        font-size: 300px;
+        display: flex;
+        flex-direction: column;
+        line-height: 250px;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+
+    &__dark {
+        color: black;
+    }
+
+    &__light {
+        color: white;
+
+        i {
+            font-size: 200px;
+        }
+    }
+
+    &__logo {
+        color: #A084B2;
+        font-weight: bold;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+}

@@ -57,3 +57,5 @@
 <?=$this->component('leiboo')?>
 
 <?=$this->component('suisse')?>
+
+<?=$this->component('why-46')?>

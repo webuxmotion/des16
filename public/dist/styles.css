@@ -316,3 +316,36 @@ ul {
 .suisse__icon svg polygon {
   fill: black;
 }
+
+.why-46 {
+  height: 100vh;
+  background-color: white;
+  background: radial-gradient(at bottom left, rgb(184, 141, 219) 0%, rgb(205, 164, 239) 40%, rgb(255, 255, 255) 70%, rgb(255, 255, 255) 100%);
+  position: relative;
+}
+.why-46__text {
+  font-size: 300px;
+  display: flex;
+  flex-direction: column;
+  line-height: 250px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.why-46__dark {
+  color: black;
+}
+.why-46__light {
+  color: white;
+}
+.why-46__light i {
+  font-size: 200px;
+}
+.why-46__logo {
+  color: #A084B2;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
